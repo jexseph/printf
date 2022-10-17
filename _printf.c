@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - Receives the main string and 
+ * _printf - Receives the main string and
  * all the necessary parameters to
  * print a formated string
  * @format: string containing all the desired characters
