@@ -4,9 +4,9 @@
 int hex_check(int, char);
 
 /**
- * print_binary - Converts a number from base 10 to binary
- * @list: List of arguments passed to this function
- * Return: The length of the number printed
+ * print_binary - Converts base 10 numbers to binary
+ * @list: number of arguments passed to this function
+ * Return: length of the number printed
  */
 int print_binary(va_list list)
 {
