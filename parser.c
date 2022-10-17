@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * parser - Receives the main string and all the necessary parameters to
+ * parser - Receives the main string and all necessary parameters to
  * print a formated string.
- * @format: A string containing all the desired characters.
- * @f_list: A list of all the posible functions.
- * @arg_list: A list containing all the argumentents passed to the program.
- * Return: A total count of the characters printed.
+ * @format: string containing all the desired characters.
+ * @f_list: list of all the posible functions.
+ * @arg_list: list containing all the argumentents passed to the program.
+ * Return: total count of the characters printed.
  */
 int parser(const char *format, conver_t f_list[], va_list arg_list)
 {
